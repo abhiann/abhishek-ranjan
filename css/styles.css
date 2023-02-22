@@ -5,12 +5,7 @@ body{
     color: #F9F7F7;
 }
 
-.top-container{  
-    background-color: #F9F7F7;
-    margin: 0;
-    position: relative;
-    padding-top: 100px; 
-}
+
 
 h1{
     margin: 50px auto 0px auto; 
@@ -30,6 +25,28 @@ h2{
 h3{
     color: #5d88b9;
 }
+
+a{
+    color: #112D4E;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+p{
+    color: #112D4E;
+}
+
+hr{
+    border-style: dotted none none;
+    border-width: 8px;
+    width: 5%;
+    color: grey;
+    margin: 100px auto 100px auto;
+}
+
 .top-cloud{
     position: absolute;
     right : 300px;
@@ -41,14 +58,6 @@ h3{
     left : 300px;
     bottom: 300px
 }
-
-a{
-    color: #112D4E;
-}
-p{
-    color: #112D4E;
-}
-
 .profile-img{
     border-radius: 50%; 
     width: 200px; 
@@ -56,6 +65,13 @@ p{
     margin: 50px;
 
 }
+
+.top-container{  
+    background-color: #F9F7F7;
+    margin: 0;
+    position: relative;
+    padding-top: 100px; 
+} 
 
 .skill-row{
     width: 50%;
@@ -85,15 +101,6 @@ p{
     margin: auto;
 }
 
-hr{
-    border-style: dotted none none;
-    border-width: 8px;
-    width: 5%;
-    color: grey;
-    margin: 100px auto 100px auto;
-}
-
-
 .btn {
     background: #087ad1;
     background-image: -webkit-linear-gradient(top, #087ad1, #008bcc);
@@ -104,7 +111,7 @@ hr{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -122,19 +129,24 @@ hr{
   }
 
   .bottom-container{
-    background-color: #74caf2;
-    margin: 50px auto 0 auto;
+    background-color: #5eacd0;
+    margin: 100px auto 0 auto;
     padding-top: 50px;
   }
 
   .copyright{
     color: #eaf6f6;
-    padding: 50px;
+    padding: 40px;
     margin: 0;
+    font-size: 0.75rem;
   }
 
   .footer-link{
-    padding: 0 50px;
+    padding: 0 30px;
+  }
+
+  .contact-message{
+    margin: 40px auto 60px;
   }
   
 
