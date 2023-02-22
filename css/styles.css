@@ -2,6 +2,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', sans-serif ;
+    color: #F9F7F7;
 }
 
 .top-container{  
@@ -44,12 +45,15 @@ h3{
 a{
     color: #5d88b9;
 }
+p{
+    color: #112D4E;
+}
 
 .profile-img{
     border-radius: 50%; 
     width: 200px; 
     height: 200px;
-    margin-top: 50px;
+    margin: 50px;
 
 }
 
@@ -61,18 +65,28 @@ a{
 }
 
 .computer-img{
-    width: 30%;
+    width: 25%;
     float: left;
     margin-right: 30px;
 }
 
 .keyboard-img{
-    width: 30%;
+    width: 25%;
     float: right;
     margin-left: 30px;
 }
 
 .typing-para{
     padding-bottom: 150px;
+}
+
+.self-desc{
+    width: 30%;
+    margin: auto;
+}
+
+hr{
+    border: 5px dotted;
+
 }
 
