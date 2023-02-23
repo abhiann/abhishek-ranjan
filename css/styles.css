@@ -37,6 +37,7 @@ a:hover{
 
 p{
     color: #112D4E;
+    line-height: 3;
 }
 
 hr{
@@ -137,8 +138,10 @@ hr{
   .copyright{
     color: #eaf6f6;
     padding: 40px;
-    margin: 0;
+    margin: 0 auto;
     font-size: 0.75rem;
+    width: 20%
+
   }
 
   .footer-link{
@@ -147,6 +150,7 @@ hr{
 
   .contact-message{
     margin: 40px auto 60px;
+    width: 30%;
   }
   
 
