@@ -117,6 +117,7 @@ hr{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    width: 15%;
   }
   
   .btn:hover {
@@ -150,6 +151,11 @@ hr{
 
   .contact-message{
     margin: 40px auto 60px;
+    width: 30%;
+  }
+
+  .contact-ques{
+    margin: 0 auto;
     width: 30%;
   }
   
